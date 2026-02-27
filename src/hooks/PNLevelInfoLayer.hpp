@@ -8,4 +8,6 @@ class $modify(PNLevelInfoLayer, LevelInfoLayer) {
     };
 
     bool init(GJGameLevel* level, bool challenge);
+
+    void onPNButton(CCObject* sender);
 };
